@@ -16,9 +16,9 @@
 
 ## 运行
 
-*Success*
-
-
+| Runtime        | Memory         |
+| -------------- | -------------- |
+| x ms, beats x% | x MB, beats x% |
 
 ## 总结
 
