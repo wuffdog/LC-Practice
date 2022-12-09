@@ -1,9 +1,9 @@
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size){
     int* merged = (int*)malloc((nums1Size + nums2Size) * sizeof(int));
 
-    int i = 0;
-    int j = 0;
-    int k = 0;
+    int i = 0; // For nums1
+    int j = 0; // For nums2
+    int k = 0; // For merged
 
     while (i < nums1Size || j < nums2Size){
         if(i == nums1Size){
