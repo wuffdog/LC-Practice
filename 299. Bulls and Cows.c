@@ -1,6 +1,5 @@
 char * getHint(char * secret, char * guess){
     int sLen = strlen(secret);
-    int gLen = strlen(guess);
 
     int A = 0;
     int B = 0;
